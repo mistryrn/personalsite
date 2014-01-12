@@ -16,7 +16,7 @@ html { background-color: #eee; }
 h1 { font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif; font-size: 46pt; color: white; }
 h2 { font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; font-size: 18pt; font-weight: lighter; color: white; }
 p { font-family: "Helvetica Neue", Arial, Sans-Serif; font-size: 14pt; font-weight: lighter; color: white; }
-a {	text-decoration: none; }
+a { text-decoration: none; }
 
 .center {
     margin: 0 auto;
@@ -47,6 +47,7 @@ html, body{
 #profile { height: 325px; width: 325px; }
 
 #menu { margin-top: 15px; }
-.menu-item { padding: 0 20px 0 0; }
+.menu-item { padding: 0 15px 0 0; }
 nav ul { list-style-type:none; }
 nav ul li { display: inline; }
+nav ul li a img { width: 46px; height: 46px; }
