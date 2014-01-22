@@ -1,5 +1,5 @@
-Rakesh Mistry's Personal Website Template
-=========================================
+Personal Website Placeholder Template
+=====================================
 
 Example: http://rakeshmistry.ca/
 
