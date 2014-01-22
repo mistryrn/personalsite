@@ -1,6 +1,6 @@
-Rakesh Mistry's Personal Website
-================================
+Rakesh Mistry's Personal Website Template
+=========================================
 
-Source code and resources for my personal website - http://www.rakeshmistry.ca/
+Example: http://rakeshmistry.ca/
 
-Feel free to use this code as you may, but please, don't steal my identity.
+Source code and resources for a simple personal website template with clean social media icons. Minimalist, responsive design focused on getting you (or your organization) online and directing traffic to other websites while yours is in development.
