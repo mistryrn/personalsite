@@ -7,13 +7,27 @@
 	<meta name="description" content="Describe your website here (for search engines)."> <!-- WEBSITE DESCRIPTION -->
 	<meta name="keywords" content="keywords, go, here, comma, separated"> <!-- WEBSITE KEYWORDS -->
 	<link rel="icon" href="images/favicon.png"> <!-- SPECIFY A FAVICON -->
-	<link rel='stylesheet' href='css/style.php' type="text/css" charset="utf-8"/>
+	<link rel='stylesheet' href='css/style.css' type="text/css" charset="utf-8"/>
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+	<script type="text/javascript">
+	// NOTE: requires that your background images are located
+	// in '/images' directory and named bg<number>.png
+	// (Numbered from 1 -> total)
+	function setBackgroundImage() {
+		// set the first number below to the number of bg images you have
+		var num = Math.floor((Math.random() * 2) + 1)
+		var style = "transparent url('images/bg" + num + ".png') center center no-repeat"
+		elements = document.getElementsByClassName('fullscreen-img');
+	    for (var i = 0; i < elements.length; i++) {
+	        elements[i].style.background=style;
+	    }
+	}
+	</script>
 </head>
-<body>
+<body onload="setBackgroundImage()">
 	<div class="fullscreen-cont">
 		<div class = "fullscreen-img"></div>
 		<div id = "copy" class = "center">
