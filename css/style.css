@@ -34,7 +34,6 @@ html, body{
     display:block;position:relative;
     min-width:100%;
     min-height:100%;
-    margin-bottom:2px;
 }
 .fullscreen-img {
     display:block;position:absolute;z-index:-1;
