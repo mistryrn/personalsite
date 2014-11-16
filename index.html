@@ -18,12 +18,13 @@
 	// in '/images' directory and named bg<number>.png
 	// (Numbered from 1 -> total)
 	function setBackgroundImage() {
-		// set the first number below to the number of bg images you have
-		var num = Math.floor((Math.random() * 2) + 1)
-		var style = "transparent url('images/bg" + num + ".png') center center no-repeat"
+		// NOTE: set numBgs to the number of bg images you have
+		var numBgs = 2;
+		var num = Math.floor((Math.random() * numBgs) + 1);
+		var style = "url('images/bg" + num + ".png')";
 		elements = document.getElementsByClassName('fullscreen-img');
 	    for (var i = 0; i < elements.length; i++) {
-	        elements[i].style.background=style;
+	        elements[i].style.backgroundImage=style;
 	    }
 	}
 	</script>
